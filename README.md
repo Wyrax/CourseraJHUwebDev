@@ -5,6 +5,11 @@ You can use the [editor on GitHub](https://github.com/Wyrax/CourseraJHUwebDev/ed
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 Cyrillic characters test: абвгґдієїжзўќѝљњђћџѣѥѹ
 
+```diff
++ Coursera [JHU] HTML, CSS, and Javascript for Web Developers
+Week 2 Coding Assignment: DONE
+```
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
