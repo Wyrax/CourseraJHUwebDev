@@ -1,0 +1,45 @@
+:root {
+	--global-color-main: #f6b319;
+	--global-color-bg: #61122f;
+}
+
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: var(--global-color-bg);
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: var(--global-color-main);
+	border-radius: 0;
+	border: 0;
+}
+#logo {
+	background: url('../img/ktt-logo-prototype.svg') no-repeat;
+	width: 300px;
+	height: 300px;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand {
+	padding-top: 100px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: var(--global-color-bg);
+	font-size: 1,75em;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px white;
+	margin-top: 0;
+	margin-bottom: 0;
+	/* line-height: .75; */
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: var(--global-color-bg);
+	font-size: .8em;
+	margin-top: 15px;
+}
