@@ -1,0 +1,35 @@
+body {
+    min-width: 200px;
+}
+.navbar {
+    margin-bottom: 0px;
+    background-color: rgb(255, 200, 181);
+}
+.navbar-default .navbar-toggle {
+    background-color: brown;
+    border-color: brown;
+}
+.navbar-default .navbar-brand {
+    font-weight: bold;
+    color: brown;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: coral;
+    border-color: coral;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: cornsilk;
+}
+.navbar-default .navbar-nav>li>a {
+    background-color: brown;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: coral;
+}
+#solid {
+    background-color: #ddd;
+}
