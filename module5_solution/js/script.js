@@ -106,9 +106,6 @@ function buildAndShowHomeHTML (categories) {
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
-
-            // var insertProperty = function (string, propName, propValue) {
-
       // Look through this code for an example of how to do use the insertProperty function.
       // WARNING! You are inserting something that will have to result in a valid Javascript
       // syntax because the substitution of {{randomCategoryShortName}} becomes an argument
@@ -126,8 +123,7 @@ function buildAndShowHomeHTML (categories) {
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
-      // ....
-      // var homeHtmlToInsertIntoMainPage = homeHtml;
+
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
     },
