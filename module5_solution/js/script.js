@@ -109,13 +109,6 @@ function buildAndShowHomeHTML (categories) {
 
             // var insertProperty = function (string, propName, propValue) {
 
-            //html =
-     // insertProperty(html,
-     //   "short_name",
-     //   short_name);
-
-
-
       // Look through this code for an example of how to do use the insertProperty function.
       // WARNING! You are inserting something that will have to result in a valid Javascript
       // syntax because the substitution of {{randomCategoryShortName}} becomes an argument
@@ -125,15 +118,16 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      var homeHtmlToInsertIntoMainPage = chosenCategoryShortName;
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
 
-      homeHtml = insertProperty(homeHtml, "randomCategoryShortName", homeHtmlToInsertIntoMainPage);
+      // homeHtml = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      insertHtml("#main-content", homeHtml);
+      // var homeHtmlToInsertIntoMainPage = homeHtml;
+      insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
